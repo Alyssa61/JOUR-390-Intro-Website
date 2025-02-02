@@ -1,9 +1,71 @@
 body{
-    font-family:sans-serif;
+    font-family: 'Lora',serif;
+    color:black;
+    padding: 20px;
 }
 
+h1, h2, h3 {
+    color: #FF69B4
+
+}
 
 img{
     width: 100%;
     max-width: 500px;
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+.watermelonbutton {
+    background-color: #FC6C85;
+}
+
+.salmonbutton {
+    background-color: #FF9999;
+}
+
+.mauvebutton {
+    background-color: #E0B0FF;
+}
+
+.pastelpinkbutton {
+    background-color: #FFD1DC;
+}
+
+.fuchsiabutton {
+    background-color: #C154C1;
+}
+
+h3.watermelon {
+    color: #FC6C85;
+}
+
+h3.salmon {
+    color: #FF9999;
+}
+
+h3.mauve {
+    color: #E0B0FF;
+}
+
+h3.pastelpink {
+    color: #FFD1DC;
+}
+
+h3.fuchsia {
+    color: #C154C1;
 }
